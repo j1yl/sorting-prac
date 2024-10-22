@@ -50,7 +50,6 @@ int main() {
   int n6 = sizeof(arr6) / sizeof(int);
 
   // O(n^2) sorting algorithms
-  // run every test case against every sorting algorithm
   run(arr1, n1, "Bubble Sort 1", arr1_expected, bubbleSort);
   run(arr2, n2, "Bubble Sort 2", arr2_expected, bubbleSort);
   run(arr3, n3, "Bubble Sort 3", arr3_expected, bubbleSort);
